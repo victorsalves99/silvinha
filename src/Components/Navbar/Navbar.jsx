@@ -1,6 +1,5 @@
+import logo from "../../assets/Silvinha.jpg"
 import "./Navbar.scss";
-
-import logo from "./src/assets/Silvinha.jpg"
 
 const Navbar = () => {
   return (

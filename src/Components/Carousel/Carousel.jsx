@@ -1,7 +1,7 @@
 import "./Carousel.scss"
-import doce from "./src/assets/doces.jpeg"
-import bolo from "./src/assets/Bolo.jpeg"
-import brigadeiro from "./src/assets/Brigadeiro.jpeg"
+import doce from "../../assets/doces.jpeg"
+import bolo from "../../assets/Bolo.jpeg"
+import brigadeiro from "../../assets/Brigadeiro.jpeg"
 
 
 
