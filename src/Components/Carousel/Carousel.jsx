@@ -1,5 +1,5 @@
 import "./Carousel.scss"
-import doce from "../../assets/doces.jpeg"
+import doce from "../../assets/Doces.jpeg"
 import bolo from "../../assets/Bolo.jpeg"
 import brigadeiro from "../../assets/Brigadeiro.jpeg"
 
