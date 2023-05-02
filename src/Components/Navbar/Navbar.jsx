@@ -24,19 +24,15 @@ const Navbar = () => {
             id="navbarNavAltMarkup"
           >
             <div className="navbar-nav">
-              <a className="nav-link active" aria-current="page" href="#">
-                Home
-              </a>
-              <a className="nav-link " href="#">
+              <a className="nav-link " href="#bolo">
                 Bolos
               </a>
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#doce">
                 Doçes
               </a>
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#brigadeiro">
                 Brigadeiros
               </a>
-              <a className="nav-link " href="#">Contatos</a>
             </div>
           </div>
         </div>

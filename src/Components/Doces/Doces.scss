@@ -1,0 +1,42 @@
+#doce {
+  font-size: 3rem;
+  color: #bc955a;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+.doces {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  .doces-decricao {
+    p {
+      text-align: justify;
+      color: #7e633d;
+      font-size: 1.2rem;
+    }
+  }
+  .table-doces {
+    thead {
+      tr {
+        border: 2px solid #bc955a;
+        th {
+          border: 2px solid #bc955a;
+          color: #bc955a;
+          font-size: 1.3rem;
+          padding: 5px;
+        }
+      }
+    }
+    tbody {
+      tr {
+        border: 2px solid #7e633d;
+        color: #7e633d;
+        td {
+          border: 2px solid #7e633d;
+          font-size: 1rem;
+          padding: 5px;
+        }
+      }
+    }
+  }
+}
