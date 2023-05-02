@@ -1,4 +1,8 @@
 import "./Carousel.scss"
+import doce from "./src/assets/doces.jpeg"
+import bolo from "./src/assets/Bolo.jpeg"
+import brigadeiro from "./src/assets/Brigadeiro.jpeg"
+
 
 
 const Carousel = () => {
@@ -13,21 +17,21 @@ const Carousel = () => {
         <div className="carousel-inner carrossel">
           <div className="carousel-item active" data-bs-interval="3000">
             <img
-              src="./src/assets/Bolo.jpeg"
+              src={bolo}
               className="d-block w-100 carrossel-img"
               alt="..."
             />
           </div>
           <div className="carousel-item" data-bs-interval="3000">
             <img
-              src="./src/assets/Brigadeiro.jpeg"
+              src={brigadeiro}
               className="d-block w-100 carrossel-img"
               alt="..."
             />
           </div>
           <div className="carousel-item" data-bs-interval="3000">
             <img
-              src="./src/assets/doces.jpeg"
+              src={doce}
               className="d-block w-100 carrossel-img"
               alt="..."
             />
